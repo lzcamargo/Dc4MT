@@ -16,7 +16,7 @@ class DummyTransformer extends Transformer {
 
     MTUtils.getLogger().info("Graph edges:")
     gf.edges.show(100, false)
-/*
+ 
     MTUtils.getLogger().info("Graph inDegrees:")
     gf.inDegrees.show()
 
@@ -25,7 +25,7 @@ class DummyTransformer extends Transformer {
 
     MTUtils.getLogger().info("Graph triplets:")
     gf.triplets.show()
-    */
+    
     gf
 
   }
